@@ -16,7 +16,7 @@ function App() {
         <Router>
           <Switch>
             <Route path="/:path(|home)"><W1A1CueDetail /></Route>
-            <Route path="/signin" component={ SignIn} />
+            <Route path="/signin"><SignIn /></Route>
             <Route path="/validate-otp" component={ Otp } />
             <Route path="/fill-details" component={ Details } />
             <Route path="/success" component={ Successful } />
